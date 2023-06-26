@@ -1,7 +1,8 @@
-levels = '00'
-checked_levels = ['0'] * 2
+levels = '00' # Показания уровней двух емкостей
+checked_levels = ['0'] * 2 # Последние показания уровней
 
-violations = '0000'
-checked_violations = ['0'] * 4
+violations = '0000' # Насосы, запущенные с нарушением
+checked_violations = ['0'] * 4 # Последние показания нарушений
 
-connection = False
+connection = 0 # Состояние связи с прибором
+users_store = {} # Пользователи бота
